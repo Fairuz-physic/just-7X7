@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurt:yo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<body>
+    <div class="main_container">
+        <div class="container">
+            <div class="soal"> What is \(\ 7 \times 7 \) = </div>
+            <div class="pilihan">
+                <button class="opsi1" id= "opsi1" onclick=jawabSalah()>56</button>
+                <button class="opsi2" id="opsi2" onclick=jawabBenar()>49</button>
+                <audio src="acu.mp3" id="musik"></audio>
+                <audio src="gok.mp3" id="gok"></audio>
+            </div>
+            <div class="emot" id="emot">😹</div> <!-- Tambahan -->
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
